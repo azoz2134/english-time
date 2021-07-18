@@ -1,0 +1,46 @@
+.table-wrapper{
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 40vw;
+    white-space: nowrap;
+    background-color: white;
+    
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+    color:rgb(255, 255, 255); 
+    font-size:0.5cm;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    
+    color:rgb(0, 0, 0); 
+    font-size:0.5cm;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+

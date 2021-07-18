@@ -1,0 +1,152 @@
+<!Doctype html><!-- read style in w3school  -->
+<html style="margin-bottom: 0px;height: 770px;">
+<head>
+<title>posts</title>
+<link rel="stylesheet" type="text/css" href="all_style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="sidebar_style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- <base href="file.png" target="_blank"/>  -->
+
+</head>
+<meta name="description" content="this is index page">
+<meta name="keywords" content="posts">
+<meta name="author" content="Abdulaziz">
+<meta name="author" content="Abdullah">
+<meta http-equiv="refresh" content="111">
+<!--  <meta http-equiv="refresh" content="90">   -->
+<body>
+<!--head part-->
+<center>
+<div id = "container">
+    <div id = "header">
+        <div class="logo">
+            <img class="logo_img" src="logo_web5.jpg" alt="not found">
+        </div>
+        <div class="logo_text_all">
+            <div class="logo_text_up">
+                English time
+            </div>
+            <div class="logo_text_down">
+                You can never understand one language until you understand at least two.
+            </div>
+        </div>
+    </div>
+    <!--paragraph part-->
+    <div id = "midle">
+        <div id = "menu">
+            <div class="sidenav" style="text-align: center;font-size: 16;">
+                    <a href="index.html">home</a>
+                <button class="dropdown-btn">topics
+                    <i style="padding-left:3vmax;" class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <div>
+                        <a href="posts.html?all">All</a>
+                    </div>
+                    <div>
+                        <a href="posts.html?A1">A1</a>
+                    </div>
+                    <div>
+                        <a href="posts.html?A2">A2</a>
+                    </div>
+                    <div>
+                        <a href="posts.html?B1">B1</a>
+                    </div>
+                    <div>
+                        <a href="posts.html?B2">B2</a>
+                    </div>
+                </div>
+                <button class="dropdown-btn">tests
+                    <i style="padding-left:3vmax;" class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <div>
+                        <a href="tests.html?A1">A1</a>
+                    </div>
+                    <div>
+                        <a href="tests.html?A2">A2</a>
+                    </div>
+                    <div>
+                        <a href="tests.html?B1">B1</a>
+                    </div>
+                    <div>
+                        <a href="tests.html?B2">B2</a>
+                    </div>
+                </div>
+                    <a href="words.html">words</a>
+                    <a href="about_us.html">about us</a>
+            </div>
+            <script src="dropdown.js"></script>
+        </div>
+        
+        <div id = "content">
+            <!-- input tag -->
+    
+                <input id="searchbar" type="text" name="search" placeholder="Search post..">
+                <input type="button" id="find_btn" onclick="search_animal()" value="find">
+            
+            <script>
+            var txt = document.getElementById("searchbar");
+                txt.addEventListener("keyup", function(event) {
+                    if (event.keyCode === 13) {
+                        event.preventDefault();
+                        document.getElementById("find_btn").click();
+                    }
+                });
+            </script>
+            <!-- ordered list -->
+            <div id='list' class="wrapper">
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_1.html">Adverbial phrases of frequency, time and place</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_2.html">Comparatives</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_3.html">be going to</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_4.html">Uncountable Nouns</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_5.html">Imperative Forms</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_6.html">Can / Could</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_7.html">Past simple</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_8.html">Prepositions of Time</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_9.html">present continuous</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_10.html">Present Simple</a></div>
+                <div  class="post_A1"><a class="link_1" href="posts/level_A1/post_11.html">Verbs of Preference + gerunds</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_1.html">Would like/ like</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_2.html">Superlatives</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_3.html">Have to</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_4.html">Definite and indefinite articles</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_5.html">Should and Ought to</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_6.html">will / won’t</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_7.html">Past continuous</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_8.html">Embedded questions</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_9.html">Definite and indefinite articles</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_10.html">Zero Conditional</a></div>
+                <div  class="post_A2"><a class="link_1" href="posts/level_A2/post_11.html">First Conditional</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_1.html">Past Perfect</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_3.html">Question Tags</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_4.html">Third Conditional</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_5.html">Second Conditional</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_6.html">Connecting words</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_7.html">Future Continuous</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_8.html">May Might and Adverbs of Probability</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_9.html">Should have</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_10.html">Present Perfect Continuous</a></div>
+                <div  class="post_B1"><a class="link_1" href="posts/level_B1/post_12.html">Simple passive</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_1.html">Future perfect</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_2.html">Future perfect continuous</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_3.html">Mixed Conditionals</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_4.html">Past Perfect Continuous</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_5.html">Defining Relative Clauses</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_6.html">will / be going to for prediction</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_7.html">Wish / If only</a></div>
+                <div  class="post_B2"><a class="link_1" href="posts/level_B2/post_8.html">Used to / Would</a></div>
+            </div>
+            
+            <!-- linking javscript -->
+            <script src="search.js"></script>
+        </div>
+    </div>
+    <div id = "footer">
+            <p style="font-size:x-large;">&copy; Abdulaziz & Abdullah</p>
+    </div>
+</div>
+</center>
+</body>
+</html>

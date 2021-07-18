@@ -1,0 +1,87 @@
+#container{
+    width:100vw;
+    position: relative;
+    top: -12px;
+    left: -23px;
+    right: -23;
+}
+#header{
+    background-color:#4FC3A1; 
+    width:100%;
+    min-height: 90px;
+    text-align: left;
+    align-items: left;
+    margin-bottom: 2px;
+}
+#midle{
+    width:70vw;
+    height: fit-content;
+}
+#menu{
+    border-radius: 15px 15px 15px 15px; 
+    background-color: #9fedd7;
+    width:14.5vw; 
+    margin-right: 0.5vw;
+    height:auto;
+    float: left;
+    align-items: center;
+}
+#content{
+    border-radius: 15px 15px 15px 15px; 
+    background-color: #577ea8;
+    width:55vw;
+    min-height: 100vh;
+    float: left;
+}
+#footer{
+    background-color: #026670;
+    clear: both;
+    text-align:left;
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-top: 5px;
+    text-align: center;
+}
+.text3{
+    color:rgb(255, 255, 255); 
+    text-align: left; 
+    padding-left: 10px;
+    font-size:0.6cm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text3{
+    color:rgb(255, 255, 255); 
+    text-align: left; 
+    padding-left: 10px;
+    font-size:0.6cm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #EDEAE5;margin-bottom: 0px;
+}
+img {
+    height:100%;width: 100px;
+}
+.logo {
+    height:90px;
+    float: left;
+    margin-left: 15%;
+}
+.logo_img{
+    height:100%;
+}
+.logo_text_all{
+    height:100%;
+    width: 100%;
+}
+.logo_text_up{
+    font-family: 'Pirata One', cursive;
+    font-size: 1.8rem;
+    color: #424242;
+}
+.logo_text_down{
+    font-family: 'Pirata One', cursive;
+    font-size: 1.2rem;
+    color: #666666;
+}
